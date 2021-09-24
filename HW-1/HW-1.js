@@ -19,8 +19,8 @@ console.log (booleanValue %2 === 0);
 const cash = 500;
 console.log ("Здача:" + (cash - sum));
 // 8 task
-const averageValue = (sum / 3);
-+console.log ("Середнє значення" +averageValue.toFixed(2));
+const averageValue = +(sum / 3).toFixed(2);
++console.log ("Середнє значення" +averageValue);
 // 9 task
 const randomDiscount = Math.round (Math.random()*101);
 console.log ("Випадкова знижка:" + randomDiscount);
